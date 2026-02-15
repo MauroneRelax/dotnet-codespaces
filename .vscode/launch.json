@@ -14,6 +14,7 @@
         }
     ],
     "configurations": [
+    
         {
             "name": "BackEnd",
             "type": "coreclr",
@@ -33,7 +34,9 @@
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
-            }
+            },
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
         },
         {
             "name": "FrontEnd",
@@ -54,7 +57,9 @@
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
-            }
+            },
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen"
         },
         {
             "name": ".NET Core Attach",
